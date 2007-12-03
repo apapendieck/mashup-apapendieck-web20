@@ -15,7 +15,7 @@
     <tr>
       <td style="padding-right:10px; width:250px" valign="top">
         <gm:list id="myList" data="http://pipes.yahoo.com/pipes/pipe.run?_id=5eda95fccb04b4f95b5c6dc9490654b0&_render=rss"
-            pagesize="20" template="myListTemplate">
+            pagesize="50" template="myListTemplate">
           <gm:handleEvent event="select" src="myMap"/>
         </gm:list>
       </td>
