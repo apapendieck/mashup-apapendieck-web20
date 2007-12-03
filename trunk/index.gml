@@ -22,7 +22,8 @@
       <td valign="top">
         <gm:map id="myMap" style="border:solid black 1px" control="large"
             maptypes="true" data="${myList}" geolocationref="atom:title"
-            infotemplate="myMapDetailsTemplate">
+            infotemplate="myMapDetailsTemplate"
+            latref="30.53" lngref="89.68">
           <gm:handleEvent event="select" src="myList"/>
         </gm:map>
       </td>
