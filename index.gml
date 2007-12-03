@@ -14,7 +14,7 @@
   <table width="100%">
     <tr>
       <td style="padding-right:10px; width:250px" valign="top">
-        <gm:list id="myList" data="http://www.mapnut.com/calstatepark.xml"
+        <gm:list id="myList" data="http://tinyurl.com/2uo9kx"
             pagesize="10" template="myListTemplate">
           <gm:handleEvent event="select" src="myMap"/>
         </gm:list>
@@ -45,7 +45,7 @@
   <gm:template id="myMapDetailsTemplate">
     <div repeat="true">
       <b><gm:text ref="atom:title"/></b><br/>
-      Lat: <gm:text ref="geo:lat"/><br/>
+      Lat: <gm:text ref="geo:long"/><br/>
       Long: <gm:text ref="geo:long"/>
     </div>
   </gm:template>
