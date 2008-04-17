@@ -46,7 +46,7 @@
   <gm:template id="myMapDetailsTemplate">
     <div repeat="true">
       <b><gm:text ref="atom:title"/></b><br/>
-      Lat: <gm:text ref="geo:long"/><br/>
+      Lat: <gm:text ref=""/>"geo:lat"<br/>
       Long: <gm:text ref="geo:long"/>
     </div>
   </gm:template>
